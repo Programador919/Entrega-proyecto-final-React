@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Proyecto
+El presente proyecto se realiza para la entrega final del curso de react, de CoderHouse y consiste en la tienda virtual de la licorera DrinkHouse, en esta aplicacion tenemos una pagina pricipal de productos en general variostipos de licores, tambien tenemos un area de registro de clientes y tenemos paginas que discriminan por algun tipo de licor en particular donde podemos ir ordenando los licores que deseamos comprar, por ultimo tenemos el carrito donde podemos verificar la compra, aumentar o disminuir las cantidades de botellas de licor, proceder a realizar el pago el cual nos pide unos datos para factura y realiza la compra genera un archivo en la base de datos firebase la cual sera la factura de compra.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Tecnologias utilizadas
+@testing-library/jest-dom ^5.17.0
+@testing-library/react ^13.4.0
+@testing-library/user-event ^13.5.0
+bootstrap ^5.3.1
+firebase ^10.1.0
+react ^18.2.0
+react-bootstrap ^2.8.0
+react-dom ^18.2.0
+react-hook-form ^7.45.4
+react-icons ^4.10.1
+react-router-dom ^6.15.0
+react-scripts 5.0.1
+react-use-cart ^1.13.0
+web-vitals ^2.1.4
 
-## Available Scripts
 
-In the project directory, you can run:
+## Operatividad de la aplicacion
+Pagina principal: estan listados todos los productos y podemos desplegar una vista detallada de cada uno de los articulos
 
-### `npm start`
+VER MAS: con este boton podemos pasar al ver a detalle el articulo que estamos viendo, aqui se puede ordenar la cantidad deceada del articulo aumentando o disminuyendo la catidad, posterior tenemos otro boton que nos envia el pedido al carrito de compras. Tambien se tiene un boton el cual nos envia a la pagina principal.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+En las paginas de navegacion tenemos una pagina principal, una pagina de registro, cuatro paginas que discriminan los licores por categorias como Whisky, Tequila, Vodka y vino y por ultimo tenemos el carrito de compras
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Realizacion de app
+- Abrir una carpeta Nueva de nombre proyecto
+- Esta carpeta la arrastramos al Editor de texto Visual Studio Code 
+- Dentro de esta carpeta creamos el proyecto de react
+- Abrimos la terminal y le damos el comando npx create-react-app . y enter y se nos crea las carpetas necesarias para el proyecto
+- En la terminal le damos el comando `npm start` para abrir el proyecto en el navegador que usamos predeterminadamente
+  (http://localhost:3000) to view it in your browser
+- en la terminal instalamos las diferentes tecnologias que vamos a usar tales como react-boostrap, reac-boostrap-icons,         react-router, react-router-dom, firebase y todas las que sean nesesarias para el proyecto
+- La hora de codear crear componentes y todo el codigo necesario para llevar a buen termino la creacion de la aplicacion.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Firebase
+- Esta base de datos no relacional se utiliza en una version de no pago es muy facil de utilizar y nos sirve para realizar las pruebas de la aplicacion mientras se encuentra en desarrollo
+# Video de la funcionalidad de la app
+[El video de la entrega ](https://drive.google.com/file/d/1TXUPwIdL9Tfn7FD5FC7QjwJ8QGxdXpww/view?usp=sharing)
